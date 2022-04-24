@@ -12,10 +12,10 @@ Die Installation des FHIR-Servers ist optional. Es stehen alternativ Repositorie
 - Selbstbau aus GitHub: https://github.com/fair4health/common-data-model/tree/master/docker
 - Download von DockerHub (mit Doku): https://hub.docker.com/r/fair4health/onfhir
 
-### Data Curation Tool
+### Data Curation Tool (DCT)
 - [Data Curation Tool V1.2.5](https://github.com/fair4health/data-curation-tool/releases) für Windows, Linux, MacOS
 
-### Data Privacy Tool
+### Data Privacy Tool (DPT)
 - [Data Privacy Tool  V1.1.1](https://github.com/fair4health/data-privacy-tool/releases) für Windows, Linux, MacOS
 
 ## Benutzung
@@ -29,9 +29,13 @@ FHIR-Repositories zur Auswahl:
 
 Terminologiedienst (optional): https://health-digital-term.ari-health.eu
 
-Dokumentation: [Deliverable 4.1 Annex I - DataCurationTool_UserGuide.pdf]
+Dokumentation: [Deliverable 4.1 Annex I - DataCurationTool_UserGuide.pdf]("Anleitungen\D4.1-Annex-I_DataCurationTool_UserGuide.pdf")
 
 Youtube: [Demonstration of the FAIR4Health solution in the FAIR4Health Final Assembly](https://www.youtube.com/watch?v=1nwcxeqiwAw) (24.11.2021)
+
+Beispieldatensätze zum Mapping mit dem DCT
+- [F4H_Demo](Demodaten\F4H_DEMO.zip): Demodaten aus FAIR4Health (732 Patienten)
+- [VHF_DEMO](Demodaten\VHF_DEMO.zip): Demodaten für den 6. Projektathon der MII (1.000 Patienten)
 
 #### Tipps
 - *Start* bzw. *Next* sind rechts oben in der GUI, damit kommt man weiter!
@@ -41,3 +45,11 @@ Youtube: [Demonstration of the FAIR4Health solution in the FAIR4Health Final Ass
   - Linux: ~/.config/FAIR4Health Data Curation Tool/logs/log.txt
 
 ### Data Privacy Tool
+
+Dokumentation: [Deliverable 4.1 Annex I - DataCurationTool_UserGuide.pdf]("Anleitungen\D4.1-Annex-II_DataPrivacyTool_UserGuide.pdf")
+
+Beispieldatensätze (müssen zuvor in ein FHIR-Repository geladen werden, bspw. mit [Postman](https://www.postman.com/))
+- [F4H_Demo](Demodaten/F4H_DEMO.zip): Demodaten aus FAIR4Health (in FAIRified Data)
+- [VHF_DEMO](Demodaten/VHF_DEMO.zip): Demodaten für den 6. Projektathon der MII (in FAIRified Data)
+- [20 Beispielpatienten](Demodaten/20patients.json) als Bundle (16 Frauen, 4 Männer)
+- [100 Beispielpatienten](Demodaten/100patients.json) als Bundle (gerade noch übersichtlich)

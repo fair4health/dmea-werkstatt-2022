@@ -9,6 +9,7 @@ Hier finden sich Dateien (Werkzeuge und Hilfedokumente) zum Arbeitstreffen im Ra
 ### onFHIR-Repository
 Die Installation des FHIR-Servers ist optional. Es stehen alternativ Repositories zur Auswahl.
 
+- per Skript: https://github.com/fair4health/common-data-model/releases/tag/v1.1.2
 - Selbstbau aus GitHub: https://github.com/fair4health/common-data-model/tree/master/docker
 - Download von DockerHub (mit Doku): https://hub.docker.com/r/fair4health/onfhir
 

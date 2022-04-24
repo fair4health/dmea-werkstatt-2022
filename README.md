@@ -29,13 +29,13 @@ FHIR-Repositories zur Auswahl:
 
 Terminologiedienst (optional): https://health-digital-term.ari-health.eu
 
-Dokumentation: [Deliverable 4.1 Annex I - DataCurationTool_UserGuide.pdf]("Anleitungen\D4.1-Annex-I_DataCurationTool_UserGuide.pdf")
+Dokumentation: [Deliverable 4.1 Annex I - DataCurationTool_UserGuide.pdf](Anleitungen/D4.1-Annex-I_DataCurationTool_UserGuide.pdf)
 
 Youtube: [Demonstration of the FAIR4Health solution in the FAIR4Health Final Assembly](https://www.youtube.com/watch?v=1nwcxeqiwAw) (24.11.2021)
 
 Beispieldatensätze zum Mapping mit dem DCT
-- [F4H_Demo](Demodaten\F4H_DEMO.zip): Demodaten aus FAIR4Health (732 Patienten)
-- [VHF_DEMO](Demodaten\VHF_DEMO.zip): Demodaten für den 6. Projektathon der MII (1.000 Patienten)
+- [F4H_Demo](Demodaten/F4H_DEMO.zip): Demodaten aus FAIR4Health (732 Patienten)
+- [VHF_DEMO](Demodaten/VHF_DEMO.zip): Demodaten für den 6. Projektathon der MII (1.000 Patienten)
 
 #### Tipps
 - *Start* bzw. *Next* sind rechts oben in der GUI, damit kommt man weiter!
@@ -46,7 +46,7 @@ Beispieldatensätze zum Mapping mit dem DCT
 
 ### Data Privacy Tool
 
-Dokumentation: [Deliverable 4.1 Annex I - DataCurationTool_UserGuide.pdf]("Anleitungen\D4.1-Annex-II_DataPrivacyTool_UserGuide.pdf")
+Dokumentation: [Deliverable 4.1 Annex I - DataCurationTool_UserGuide.pdf](Anleitungen/D4.1-Annex-II_DataPrivacyTool_UserGuide.pdf)
 
 Beispieldatensätze (müssen zuvor in ein FHIR-Repository geladen werden, bspw. mit [Postman](https://www.postman.com/))
 - [F4H_Demo](Demodaten/F4H_DEMO.zip): Demodaten aus FAIR4Health (in FAIRified Data)
